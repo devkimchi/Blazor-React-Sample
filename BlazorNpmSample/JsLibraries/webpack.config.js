@@ -15,6 +15,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../wwwroot/js'),
     filename: "bundle.js",
-    library: "FluentUiComponents"
+    library: "FluentUiComponents",
+    libraryTarget: "window"
   }
 };

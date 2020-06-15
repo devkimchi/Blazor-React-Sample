@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "",
+
+    "API__BASE_URI": "http://localhost:7071/api/",
+    "API__ENDPOINT": "hello",
+    "API__AUTH_KEY": ""
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

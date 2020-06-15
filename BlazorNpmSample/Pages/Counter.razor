@@ -1,4 +1,6 @@
 ﻿@page "/counter"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Config
 @inject IJSRuntime Jsr
 
 <h1>Counter</h1>
@@ -9,6 +11,8 @@
 
 <div id="reactProgressBar"></div>
 
+<div id="reactHello"></div>
+
 @code {
     private int currentCount = 0;
 
@@ -17,6 +21,12 @@
         currentCount++;
 
         await Jsr.InvokeVoidAsync("FluentUiComponents.RenderProgressBar", currentCount);
+
+        var baseUri = Config.GetValue<string>("PROXY_BASE_URI");
+        var endpoint = Config.GetValue<string>("PROXY_ENDPOINT");
+        var requestUri = $"{baseUri.TrimEnd('/')}/{endpoint.TrimStart('/')}?count={currentCount}";
+
+        await Jsr.InvokeVoidAsync("FluentUiComponents.GetHello", requestUri);
     } *@
 
     [Parameter]
@@ -27,5 +37,11 @@
         currentCount += IncrementAmount;
 
         await Jsr.InvokeVoidAsync("FluentUiComponents.RenderProgressBar", currentCount);
+
+        var baseUri = Config.GetValue<string>("PROXY_BASE_URI");
+        var endpoint = Config.GetValue<string>("PROXY_ENDPOINT");
+        var requestUri = $"{baseUri.TrimEnd('/')}/{endpoint.TrimStart('/')}?count={currentCount}";
+
+        await Jsr.InvokeVoidAsync("FluentUiComponents.GetHello", requestUri);
     }
 }

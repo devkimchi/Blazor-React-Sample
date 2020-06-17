@@ -5,18 +5,29 @@ This provides sample codes adding React UI components to Blazor Web Assembly app
 
 ## Readings ##
 
-* 한국어: TBD
-* English: TBD
+* 한국어:
+  * [Blazor 웹 애플리케이션에 React UI 컴포넌트 끼얹기](https://blog.aliencube.org/ko/2020/06/03/adding-react-components-to-blazor-webassembly-app/)
+  * [Blazor 웹 애플리케이션에 node.js를 이용해 React UI 컴포넌트 끼얹기](https://blog.aliencube.org/ko/2020/06/10/adding-react-components-to-blazor-webassembly-app-by-nodejs/)
+  * [애저 정적 웹 앱에 블레이저 웹 어셈블리 앱 호스팅하기](https://blog.aliencube.org/ko/2020/06/17/hosting-blazor-web-assembly-app-on-azure-static-webapp/)
+* English:
+  * [Adding React UI Components to Blazor Web Assembly App](https://devkimchi.com/2020/06/03/adding-react-components-to-blazor-webassembly-app/)
+  * [Adding React UI Components to Blazor Web Assembly App by node.js](https://devkimchi.com/2020/06/10/adding-react-components-to-blazor-webassembly-app-by-nodejs/)
+  * [Hosting Blazor Web Assembly App on Azure Static Web App](https://devkimchi.com/2020/06/17/hosting-blazor-web-assembly-app-on-azure-static-webapp/)
 
 
 ## Acknowledgement ##
 
-This sample application is originally inspired by [Hassan Habib](https://twitter.com/HassanRezkHabib)'s [YouTube video](https://youtu.be/E4xUCxOL_PI) that explains [Blazor Server](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1&WT.mc_id=devkimchicom-github-juyoo#blazor-server).
+This sample application is originally inspired by:
+
+* [Hassan Habib](https://twitter.com/HassanRezkHabib)'s [YouTube video](https://youtu.be/E4xUCxOL_PI) that explains [Blazor Server](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1&WT.mc_id=devkimchicom-github-juyoo#blazor-server).
+* [Kedren Villena](https://www.linkedin.com/in/kedrenvillena/)'s [blog post](https://medium.com/swlh/using-npm-packages-with-blazor-2b0310279320).
+* [Tim Heuer](https://twitter.com/timheuer)'s [blog post](https://timheuer.com/blog/hosting-blazor-in-azure-static-web-apps/).
 
 
 ## Prerequisites ##
 
 * [.NET Core SDK 3.1.4](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=devkimchicom-github-juyoo#3.1.4)
+* [node.js v12.x](https://nodejs.org/en/download/)
 
 
 ## Contribution ##

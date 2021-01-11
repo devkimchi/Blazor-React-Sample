@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@fluentui/react": "^7.117.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

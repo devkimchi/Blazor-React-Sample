@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorNpmSample", "BlazorNp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApiSample", "BlazorApiSample\BlazorApiSample.csproj", "{9D4404EC-47BA-4B6C-8811-05EC67922919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorProxySampleNet", "BlazorProxySampleNet\BlazorProxySampleNet.csproj", "{6FED9A96-DF03-4FF9-B297-8842B781FADF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{9D4404EC-47BA-4B6C-8811-05EC67922919}.Release|x64.Build.0 = Release|Any CPU
 		{9D4404EC-47BA-4B6C-8811-05EC67922919}.Release|x86.ActiveCfg = Release|Any CPU
 		{9D4404EC-47BA-4B6C-8811-05EC67922919}.Release|x86.Build.0 = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|x64.Build.0 = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Debug|x86.Build.0 = Debug|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|x64.ActiveCfg = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|x64.Build.0 = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|x86.ActiveCfg = Release|Any CPU
+		{6FED9A96-DF03-4FF9-B297-8842B781FADF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
